@@ -25,6 +25,11 @@ if [ "$count" -eq 1 ]; then
 elif [ "$count" -gt 1 ]; then
   uci set network.lan.ipaddr='192.168.100.1'
 fi
+uci set network.wan.proto='pppoe'
+uci set network.wan.username='dl06463297@163'
+uci set network.wan.password='123456'
+uci set network.wan.device='eth0'
+uci commit network
 
 # 设置所有网口可访问网页终端
 uci delete ttyd.@ttyd[0].interface
