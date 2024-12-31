@@ -25,12 +25,12 @@ PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn_git-24.272.29284-d386ad6_all"
-PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn_git-24.364.71483-75d2b84_all"
-PACKAGES="$PACKAGES luci-i18n-transmission-zh-cn_git-24.364.71483-75d2b84_all"
-PACKAGES="$PACKAGES luci-i18n-socat-zh-cn_git-24.272.29284-d386ad6_all"
-PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn_git-24.336.64382-9b231c4_all"
-PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn_git-24.272.29284-d386ad6_all"
+PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-transmission-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-socat-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
 
 
 # 构建镜像
