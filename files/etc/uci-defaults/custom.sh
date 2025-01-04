@@ -48,7 +48,7 @@ if [ "$lan_iface" != "" ]; then
            uci delete network.@interface[0].device
         done
         uci set network.lan.proto='static'
-        uci set network.lan.ipaddr='192.168.100.1'
+        uci set network.lan.ipaddr='192.168.20.1'
         uci set network.lan.netmask='255.255.255.0'
 
         echo "Multiple LAN interfaces found. Creating a bridge."
